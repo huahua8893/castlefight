@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="111" height="42" tilewidth="15" tileheight="15" nextobjectid="1">
+ <tileset firstgid="1" name="map" tilewidth="1665" tileheight="639">
+  <image source="map.png" width="1665" height="639"/>
+ </tileset>
+ <tileset firstgid="2" name="conllidable_tile" tilewidth="15" tileheight="15">
+  <image source="conllidable_tile.jpg" width="15" height="15"/>
+  <tile id="0">
+   <properties>
+    <property name="Conllidable" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="bg_layer" width="111" height="42">
+  <data encoding="base64" compression="zlib">
+   eJztzjEBAAAIA6DZv7Qd9ugBCUgAAAAAAAAAAAAAAAAAAAAAAOCXuQ5QW0qUAAI=
+  </data>
+ </layer>
+ <layer name="collidable" width="111" height="42" opacity="0">
+  <data encoding="base64" compression="zlib">
+   eJzt1FEOAjEIANGN9z+0R3BTCgM4L+HPuNLZ+jySOvkERizb3VN9jra7x3Zz2W4u281lu7lsN5ft5upyjh17dX+v/rVd5P5Hh97htsp2ZDfincxWsSPdi7oD2br+v0zrt60d3aayn+1sF3nerefSTWyX892dJnPPbCfP/vV5ukdVP6rZm9/g1L4LJ+hdt001et8tQ6H3njw0ev/J09HJb6fPMXruEzu98XYXukf0vmzrdoJus/UOZaO72C2ObmS7GLqTze6x0V62kSRJkiRN9AWP4Qtl
+  </data>
+ </layer>
+</map>

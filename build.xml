@@ -326,7 +326,6 @@
             <sources dir="${basedir}">
                 <file name="src/resource.js"/>
                 <file name="src/LoadingScene.js"/>
-                <file name="src/config/pomelo-cocos2d-js.js"/>
                 <file name="src/config/chance.js"/>
                 <file name="src/config/AudioUtil.js"/>
                 <file name="src/config/Path.js"/>
